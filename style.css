@@ -28,6 +28,8 @@ p{
 }
 .but{
     margin: 10px;
+    height: 200px;
+    width: 200px;
 }
 .container-title{
     display: grid;

@@ -10,7 +10,7 @@
 <body>
  <!-- Header Nav bar -->
  <section>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-1 pb-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-1 pb-0">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img src="./images/Duo Destiny Logo.png" alt="Duo Destiny Logo" height="100"><img src="./images/Bounty Hunter Logo.png" alt="Bounty Hunter Logo" height="120"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,48 +49,140 @@
     <h1>Discover More About These Fascinating Characters!</h1>
 </div>
 <!-- Headline End -->
- <div class="container col-lg-6 mt-5">
+ <div class="container col-lg-12 mt-5">
     
         <div class="item mx-5">
-            <h2>Duo Destiny:</h2>
-            <div class="Spotlight-buttons container col-lg-12">
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(0,0, ScottRogers, './images/CharacterSpotlight/ScottRogers.jpeg')">Scott Rogers</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(1,0, Alyx, './images/CharacterSpotlight/AlyxHutchens.jpeg')">Alyx Hutchens</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(2,5, Artie, './images/CharacterSpotlight/Artie.jpeg')">Artie Lancaster</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(3,0, Orell, './images/CharacterSpotlight/GeneralOrell.jpeg')">General Orell</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(4,5, Frederick, './images/CharacterSpotlight/KingFrederick.jpeg')">King Frederick</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(5,0, Giles, './images/CharacterSpotlight/MadamJeanGiles.jpeg')">Madam Jean Giles</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(6,0, Solomon, './images/CharacterSpotlight/KingSolomon.jpeg')">King Solomon</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(7,0, Jeffery, './images/CharacterSpotlight/Jeffery.jpeg')">Village Elder Jeffery</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(8,0, Graves, './images/CharacterSpotlight/EmperorGraves.jpeg')">Emperor Graves</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(9,5, Fiora, './images/CharacterSpotlight/Fiora.jpeg')">Fiora Hutchens</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(10,5, Larry, './images/CharacterSpotlight/Larry.jpeg')">Lawrence Orell</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(11,5, Max, './images/CharacterSpotlight/Max.jpeg')">Maximillian Penmark</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(12,5, Sharla, './images/CharacterSpotlight/Sharla.jpeg')">Sharla Rogers</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(13,4, Damian, './images/CharacterSpotlight/Damian.jpeg')">Damian Edwards</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(14,4, Warrior, './images/CharacterSpotlight/Warrior.jpeg')">Warrior of Light</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(15,2, Acolyte, './images/CharacterSpotlight/Acolyte.jpeg')">Acolyte of Darkness</button></a>
-
+            <h2 class="text-danger">Duo Destiny:</h2>
+            <div class="Spotlight-buttons container">
+              <div class="row">
+                <div class="col-md-3">
+               <h3>Scott Rogers</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/ScottRogers.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(0,0, ScottRogers, './images/CharacterSpotlight/ScottRogers.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Alyx Hutchens</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/AlyxHutchens.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(1,0, Alyx, './images/CharacterSpotlight/AlyxHutchens.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Artie Lancaster</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Artie.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(2,5, Artie, './images/CharacterSpotlight/Artie.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>General Orell</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/GeneralOrell.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(3,0, Orell, './images/CharacterSpotlight/GeneralOrell.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>King Frederick</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/KingFrederick.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(4,5, Frederick, './images/CharacterSpotlight/KingFrederick.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+                <h3>Madam Jean Giles</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/MadamJeanGiles.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(5,0, Giles, './images/CharacterSpotlight/MadamJeanGiles.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+                <h3>King Solomon</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/KingSolomon.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(6,0, Solomon, './images/CharacterSpotlight/KingSolomon.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+                <h3>Jeffery</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Jeffery.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(7,0, Jeffery, './images/CharacterSpotlight/Jeffery.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+                <h3>Emperor Graves</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/EmperorGraves.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(8,0, Graves, './images/CharacterSpotlight/EmperorGraves.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Fiora Hutchens</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Fiora.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(9,5, Fiora, './images/CharacterSpotlight/Fiora.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Lawrence Orell</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Larry.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(10,5, Larry, './images/CharacterSpotlight/Larry.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Maximillian Penmark</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Max.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(11,5, Max, './images/CharacterSpotlight/Max.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Sharla Rogers</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Sharla.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(12,5, Sharla, './images/CharacterSpotlight/Sharla.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Damian Edwards</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Damian.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(13,4, Damian, './images/CharacterSpotlight/Damian.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Warrior of Light</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Warrior.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(14,4, Warrior, './images/CharacterSpotlight/Warrior.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Acolyte of Darkness</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Acolyte.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(15,2, Acolyte, './images/CharacterSpotlight/Acolyte.jpeg')"></button></a>
+              </div>
+              </div>
             </div>
         </div>
         <div class="item mx-5">
-            <h2>Bounty Hunter:</h2>
-            <div class="Spotlight-buttons container col-lg-12">
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(16,6, Ryan, './images/CharacterSpotlight/Ryan.jpeg')">Ryan Singleton</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(17,6, Katie, './images/CharacterSpotlight/Katie.jpeg')">Katie Anderson</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(18,6, Jody, './images/CharacterSpotlight/Jody.jpeg')">Jody Winters</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(19,1, Zack, './images/CharacterSpotlight/Zack.jpeg')">Zack Livingston</button></a>
-                <a href="#John"><button id="John" type="button" class="btn btn-primary but" onclick="changeText(20,1, John, './images/CharacterSpotlight/John.jpeg')">John Takahashi</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(21,6, Earl, './images/CharacterSpotlight/Earl.jpeg')">Earl Davenport</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(22,3, Neyvis, './images/CharacterSpotlight/Neyvis.jpeg')">Neyvis Dunnwalker</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(23,1, Fray, './images/CharacterSpotlight/Fray.jpeg')">Dr. Fray</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(24,6, Meeks, './images/CharacterSpotlight/Meeks.jpeg')">Officer Meeks</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(25,1, Heydrich, './images/CharacterSpotlight/Heydrich.jpeg')">Heydrich Kralick</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(26,6, Eagle, './images/CharacterSpotlight/Eagle.jpeg')">The Eagle</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(27,3, Rosesauri, './images/CharacterSpotlight/Rosesauri.jpeg')">Rosesauri</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(28,3, Merik, './images/CharacterSpotlight/Merik.jpeg')">Merik</button></a>
-                <a href="#John"><button type="button" class="btn btn-primary but" onclick="changeText(29,3, Keblex, './images/CharacterSpotlight/Keblex.jpeg')">Keblex</button></a>
-
+            <h2 class="text-danger">Bounty Hunter:</h2>
+            <div class="Spotlight-buttons container">
+              <div class="row">
+                <div class="col-md-3">
+              <h3>Ryan Singleton</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Ryan.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(16,6, Ryan, './images/CharacterSpotlight/Ryan.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Katie Anderson</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Katie.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(17,6, Katie, './images/CharacterSpotlight/Katie.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Jody Winters</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Jody.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(18,6, Jody, './images/CharacterSpotlight/Jody.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Zack Livingston</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Zack.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(19,1, Zack, './images/CharacterSpotlight/Zack.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>John Takahashi</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/John.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(20,1, SpotlightImage, './images/CharacterSpotlight/John.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Earl Davenport</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Earl.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(21,6, Earl, './images/CharacterSpotlight/Earl.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Neyvis Dunnwalker</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Neyvis.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(22,3, Neyvis, './images/CharacterSpotlight/Neyvis.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Dr. Fray</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Fray.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(23,1, Fray, './images/CharacterSpotlight/Fray.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Officer Meeks</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Meeks.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(24,6, Meeks, './images/CharacterSpotlight/Meeks.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Heydrich Kralick</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Heydrich.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(25,1, Heydrich, './images/CharacterSpotlight/Heydrich.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>The Eagle</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Eagle.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(26,6, Eagle, './images/CharacterSpotlight/Eagle.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Rosesauri</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Rosesauri.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(27,3, Rosesauri, './images/CharacterSpotlight/Rosesauri.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Merik</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Merik.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(28,3, Merik, './images/CharacterSpotlight/Merik.jpeg')"></button></a>
+              </div>
+              <div class="col-md-3">
+              <h3>Keblex</h3>
+                <a href="#SpotlightImage"><button style="background-image: url('./images/CharacterButtons/Keblex.jpeg');" type="button" class="btn btn-primary but" onclick="changeText(29,3, Keblex, './images/CharacterSpotlight/Keblex.jpeg')"></button></a>
+              </div>
+              </div>
 
             </div>
 
@@ -102,7 +194,7 @@
 
  <!-- Spotlight Start -->
 
- <div class="container">
+ <div class="container" id="SpotlightImage">
   <div class="row">
     <div class="col-xl-6 col-12 mt-3">
       <img src="./images/Character Spotlight Carousel/Ryan.jpeg" alt="character Spotlight" height="500" id="characterImage">
